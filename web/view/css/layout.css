@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+.pagLogin{
+    width: 360px;
+    padding: 3% 0 0;
+    margin: auto;
+}
+
+.lb label{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto 100px;
+    text-align: left;
+    font-family: "PT Sans", sans-serif;
+    color: #111111 ;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    
+}
+
+.form h1{
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    color: #111111;
+    padding-bottom: 20px;
+}
+
+.form h2{
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    color: #111111;
+    padding-bottom: 20px;
+}
+
+.form input[type="text"]{
+    font-family: "PT Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input[type="submit"]{
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #87cefa;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:active{
+    background: #005fcc;
+}
+
+.form input[type="password"]{
+    font-family: "PT Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form select{
+    font-family: "PT Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #111111;
+    
+}
+body{
+    background: #00ffff;
+    background: -webkit-linear-gradient(right,#00ffff,#999999);
+    background: -moz-linear-gradient(right,#00ffff,#999999);
+    background: -o-linear-gradiente(right,#00ffff,#999999);
+    background: linear-gradient(right, #00ffff, #999999);
+    font-family: "PT Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.imgLogo img{
+    width: 300px;
+    padding-left: 42%;
+}
+a{
+    color: #87cefa;
+}
